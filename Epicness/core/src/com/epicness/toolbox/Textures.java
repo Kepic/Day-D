@@ -11,7 +11,7 @@ public class Textures {
             sudafrica, egipto, argentina, venezuela, mexico, india, arabiasaudita, rusia, bolivia;
     public static Texture map, spbg, bgimg, frame, gameover;
     public static Texture playButton, optionsButton, tutorialButton;
-    public static Texture earthquake, hurricane, toxic;
+    public static Texture earthquake, hurricane, toxic, tsunami, burn;
 
     public static void create() {
         alemania = new Texture("countries/alemania.png");
@@ -45,6 +45,8 @@ public class Textures {
         earthquake = new Texture("disasters/earthquake.png");
         hurricane = new Texture("disasters/hurricane.png");
         toxic = new Texture("disasters/toxic.png");
+        tsunami = new Texture("disasters/tsunami.png");
+        burn = new Texture("disasters/burn.png");
 
         gameover = new Texture("gameover.png");
         map = new Texture("map.png");

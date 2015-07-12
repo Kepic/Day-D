@@ -184,6 +184,20 @@ public class MapScreen {
                 Sizes.height / 8,
                 Sizes.height / 8
         );
+        mapBatch.draw(
+                Textures.burn,
+                Sizes.width / 2 - Sizes.height / 16 + Sizes.height / 8,
+                0,
+                Sizes.height / 8,
+                Sizes.height / 8
+        );
+        mapBatch.draw(
+                Textures.tsunami,
+                Sizes.width / 2 - Sizes.height / 16 + Sizes.height / 8,
+                0,
+                Sizes.height / 8,
+                Sizes.height / 8
+        );
 
         mapBatch.end();
 
