@@ -165,7 +165,21 @@ public class MapScreen {
 
         mapBatch.draw(
                 Textures.earthquake,
+                Sizes.width / 2 - Sizes.height / 16 - Sizes.height / 8,
+                0,
+                Sizes.height / 8,
+                Sizes.height / 8
+        );
+        mapBatch.draw(
+                Textures.toxic,
                 Sizes.width / 2 - Sizes.height / 16,
+                0,
+                Sizes.height / 8,
+                Sizes.height / 8
+        );
+        mapBatch.draw(
+                Textures.hurricane,
+                Sizes.width / 2 - Sizes.height / 16 + Sizes.height / 8,
                 0,
                 Sizes.height / 8,
                 Sizes.height / 8
