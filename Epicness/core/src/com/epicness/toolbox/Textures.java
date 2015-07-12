@@ -9,7 +9,7 @@ public class Textures {
     public static Texture alemania, australia, brasil, canada, china, francia, inglaterra, japon,
             usa, nigeria, tailandia, sudan, suecia, ucrania, madagascar, congo, italia, espana,
             sudafrica, egipto, argentina, venezuela, mexico, india, arabiasaudita, rusia, bolivia;
-    public static Texture map, est, spbg, bgimg, frame;
+    public static Texture map, spbg, bgimg, frame, gameover;
     public static Texture playButton, optionsButton, tutorialButton;
     public static Texture earthquake, hurricane, toxic;
 
@@ -46,7 +46,7 @@ public class Textures {
         hurricane = new Texture("disasters/hurricane.png");
         toxic = new Texture("disasters/toxic.png");
 
-        est = new Texture("est.png");
+        gameover = new Texture("gameover.png");
         map = new Texture("map.png");
         spbg = new Texture("spbg.png");
         bgimg = new Texture("bgimg.png");

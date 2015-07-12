@@ -5,6 +5,8 @@ import com.badlogic.gdx.InputProcessor;
 import com.badlogic.gdx.graphics.Color;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.epicness.buttons.Button;
+import com.epicness.game.Round;
+import com.epicness.toolbox.Fonts;
 import com.epicness.toolbox.Sizes;
 import com.epicness.toolbox.Textures;
 
@@ -21,7 +23,21 @@ public class EndScreen {
     }
 
     public static void render() {
-
+        endBatch.begin();
+        endBatch.draw(
+                Textures.gameover,
+                0,
+                0,
+                Sizes.width,
+                Sizes.height
+        );
+        Fonts.glow.draw(
+                endBatch,
+                "SCORE " + Round.score,
+                Sizes.width * 0.2f,
+                Sizes.height / 3
+        );
+        endBatch.end();
     }
 
     public static InputProcessor getInputProcessor() {

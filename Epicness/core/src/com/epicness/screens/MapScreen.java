@@ -160,6 +160,17 @@ public class MapScreen {
                 );
             }
         }
+
+        // DISASTERS
+
+        mapBatch.draw(
+                Textures.earthquake,
+                Sizes.width / 2 - Sizes.height / 16,
+                0,
+                Sizes.height / 8,
+                Sizes.height / 8
+        );
+
         mapBatch.end();
 
     }

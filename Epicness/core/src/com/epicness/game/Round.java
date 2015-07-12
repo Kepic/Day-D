@@ -18,6 +18,7 @@ public class Round {
 
     public static int round;
     public static int disasters;
+    public static int score;
 
     public static void create() {
         round = 1;
@@ -25,6 +26,7 @@ public class Round {
 
     public static void passRound() {
         round++;
+        score += 100;
         MapScreen.disaster = false;
         if (round >= 10) {
             Renderer.onMapScreen = false;
